@@ -1,6 +1,6 @@
 @font-face {
     font-family: "TrebuchetMS";
-    src: url(../fonts/TrebuchetMS);
+    src: url(../fonts/TrebuchetMS.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -43,7 +43,7 @@ body{
     margin: 0px auto;
     width: 1200px;
 }
-#gear{
+.icon{
     font-family: "WebSymbolsRegular";
 }
 
@@ -122,4 +122,37 @@ body{
     font-family: BebasNeue;
     text-shadow: 2px 2px 2px black;
     text-transform: uppercase;
+}
+/*Cards*/
+.widget-card{
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin: 17px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: "TrebuchetMS";
+    color:#0C558c;
+    text-align: center;
+}
+.widget-icon{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    width: 100%;
+    margin: 0px auto;
+}
+.widget-card .category{
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget-card .description-category{
+    margin-top: 40px;
+    font-size: 15px;
+    color:#0370b9;
 }
