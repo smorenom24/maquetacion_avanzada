@@ -62,7 +62,6 @@ body{
     margin-top: 8px;
     margin-left:20px;
 }
-
 #logo > #gear{
     float: left;
     margin-left: 26px;
@@ -74,4 +73,30 @@ body{
     transition: all 300ms;
     margin-right: 66px;
     margin-top: 5px;
+}
+#menu{
+    float:right;
+    margin-right: 15%;
+    height: 70px;
+}
+.boton_menu{
+    float: left;
+    margin: 0px 20px 0px 20px;
+    line-height: 70px;
+}
+.boton_menu > a{
+    display: block;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#menu > div >a:hover{
+    color: #37bcf9;
+    transform: scale(1.2);
+}
+#menu > div:hover >a{
+    color: #37bcf9;
+    transform: scale(1.2);
 }
