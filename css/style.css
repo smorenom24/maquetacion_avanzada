@@ -156,3 +156,22 @@ body{
     font-size: 15px;
     color:#0370b9;
 }
+#barra_lateral{
+    float: right;
+    width: 300px;
+    min-height: 1200px;
+    font-family: "TrebuchetMS"
+}
+.titulo_barra_lateral{
+    width: auto;
+    height: 45px;
+    box-shadow: 0px 1px 0px #393d3f,1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f ;
+    background-image: url(../img/pxgray.png);
+    font-family: BebasNeue;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    line-height: 49px;
+}
