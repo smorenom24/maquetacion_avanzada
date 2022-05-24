@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "BebasNeue";
-    src: url(../fonts/BebasNeue);
+    src: url(../fonts/BebasNeue.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +25,53 @@
 }
 
 /*Estilos Generales */
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/pattern.png);
+}
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: "BebasNeue";
+}
+#wrap{
+    margin: 0px auto;
+    width: 1200px;
+}
 #gear{
     font-family: "WebSymbolsRegular";
+}
+
+
+#logo{
+    float: left;
+    width: 200px;
+    background-color: #37bcf9;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms;
+    margin-top: 8px;
+    margin-left:20px;
+}
+
+#logo > #gear{
+    float: left;
+    margin-left: 26px;
+    margin-top: 8px;
+    font-size: 30px;
+}
+#logo_title{
+    float: right;
+    transition: all 300ms;
+    margin-right: 66px;
+    margin-top: 5px;
 }
