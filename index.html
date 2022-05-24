@@ -1,89 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Maquetación avanzada CSS</title>
-        <link rel="stylesheet" type = "text/css" href = "css/style.css">
-        <link rel="icon" type="favicon/x-icon" href="img/supertux.png">
-    </head>
-    <body>
-        <!--Inicio de cabecera-->
-        <div id="header">
-            <div class="wrap">
-                <div id = "logo">
-                    <div id="gear" class = "icon">
-                        S
-                    </div>
-                    <div id="logo_title">Blog</div>
-                    
-                </div>
-                <div id = "menu">
-                    <div class="boton_menu"><a href="#">Inicio</a></div>
-                    <div class="boton_menu"><a href="#">Blog</a></div>
-                    <div class="boton_menu"><a href="#">Formación</a></div>
-                    <div class="boton_menu"><a href="#">Contacto</a></div>
-                </div>
-            </div>
-            
-        </div>
+
+<head>
+    <meta charset="utf-8">
+    <title>Maquetación avanzada CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="favicon/x-icon" href="img/supertux.png">
+</head>
+
+<body>
+    <!--Inicio de cabecera-->
+    <div id="header">
         <div class="wrap">
-            <div id="contenedor_info">
-                <div id="banner">
-                    <div id="texto_banner">
-                        Cursos de desarrollo web con Marcelmaths
-                    </div>
+            <div id="logo">
+                <div id="gear" class="icon">
+                    S
                 </div>
-                
-                <div id="tarjetas"">
-                    <div class="widget-card">
-                        <div class= "icon widget-icon">
-                            H
-                        </div>
-                        <div class="category">Desarrollo web</div>
-                        <div class="description-category">
-                            Aprende los principales lenguajes para desarrollar web. Conviértete en webmaster
-                        </div>
-                    </div>
-                    <div class="widget-card">
-                        <div class= "icon widget-icon">
-                            _
-                        </div>
-                        <div class="category">Sistemas operativos</div>
-                        <div class="description-category">
-                            Aprende a administrar sistemas Linux y windows.
-                        </div>
-                    </div>
-                    <div class="widget-card">
-                        <div class= "icon widget-icon">
-                            S
-                        </div>
-                        <div class="category">Hardware</div>
-                        <div class="description-category">
-                            Conoce los entretipos del hardware.
-                        </div>
-                    </div>
-                    <div class="widget-card">
-                        <div class= "icon widget-icon">
-                            u
-                        </div>
-                        <div class="category">Redes e internet</div>
-                        <div class="description-category">
-                            Aprende a configurar y administrar redes informáticas y servidores.
-                        </div>
-                    </div>
-                    <div class="widget-card">
-                        <div class= "icon widget-icon">
-                            a
-                        </div>
-                        <div class="category">Bases de datos</div>
-                        <div class="description-category">
-                            Aprende a montar y administrar bases de datos.
-                        </div>
-                    </div>
-                </div> 
+                <div id="logo_title">Blog</div>
+
             </div>
+            <div id="menu">
+                <div class="boton_menu"><a href="#">Inicio</a></div>
+                <div class="boton_menu"><a href="#">Blog</a></div>
+                <div class="boton_menu"><a href="#">Formación</a></div>
+                <div class="boton_menu"><a href="#">Contacto</a></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="wrap">
+        <div id="contenedor_info">
+            <div id="banner">
+                <div id="texto_banner">
+                    Cursos de desarrollo web con Marcelmaths
+                </div>
+            </div>
+
+            <div id="tarjetas"">
+                    <div class=" widget-card">
+                <div class="icon widget-icon">
+                    H
+                </div>
+                <div class="category">Desarrollo web</div>
+                <div class="description-category">
+                    Aprende los principales lenguajes para desarrollar web. Conviértete en webmaster
+                </div>
+            </div>
+            <div class="widget-card">
+                <div class="icon widget-icon">
+                    _
+                </div>
+                <div class="category">Sistemas operativos</div>
+                <div class="description-category">
+                    Aprende a administrar sistemas Linux y windows.
+                </div>
+            </div>
+            <div class="widget-card">
+                <div class="icon widget-icon">
+                    S
+                </div>
+                <div class="category">Hardware</div>
+                <div class="description-category">
+                    Conoce los entretipos del hardware.
+                </div>
+            </div>
+            <div class="widget-card">
+                <div class="icon widget-icon">
+                    u
+                </div>
+                <div class="category">Redes e internet</div>
+                <div class="description-category">
+                    Aprende a configurar y administrar redes informáticas y servidores.
+                </div>
+            </div>
+            <div class="widget-card">
+                <div class="icon widget-icon">
+                    a
+                </div>
+                <div class="category">Bases de datos</div>
+                <div class="description-category">
+                    Aprende a montar y administrar bases de datos.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="barra_lateral">
+        <div class="titulo_barra_lateral">
+            Buscar
+        </div>
+        <div id="search">
+            <form>
+                <input type="text">
+                <input type="button" value="L">
+            </form>
+        </div>
+
+        <div class="titulo_barra_lateral">
+            Login
+        </div>
+        <div id="login">
+            <form>
+                <div id="user">
+                    U
+                </div>
+                <input type="email">
+                <div id="password">
+                    W
+                </div>
+                <input type="password">
+                <input type="submit" value="Entrar">
+                <input type="reset" value="Limpiar">
+            </form>
+
+            <a href="#">Regístrate Aquí</a>
+            <a href="#"></a>¿Has olvidado tu contraseña?</a>
+        </div>
+        <div class="titulo_barra_lateral">
+            Redes sociales
+        </div>
+        <div id = "social">
+            <div class="icon red-social-icon"><a>t</a></div>
+            <div class="icon red-social-icon"><a>f</a></div>
+            <div class="icon red-social-icon"><a>y</a></div>
+        </div>
+        <div class="titulo_barra_lateral">
+            Patrocinadores
+        </div>
+        <div class="patrocinadores">
             
         </div>
-        <!--Fin de cabecera-->
-    </body>
+
+    </div>
+    </div>
+    <!--Fin de cabecera-->
+</body>
+
 </html>
