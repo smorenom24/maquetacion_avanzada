@@ -383,3 +383,71 @@ body{
     color:#0C558c;
     letter-spacing: 3px;
 }
+
+#footer{
+    clear: both;
+    height: 470px;
+    width: 100%;
+    background-color:black ;
+    color: white;
+    overflow: hidden;
+}
+.titulo_footer{
+    background: url(../img/pxgray.png), white;
+    height: 50px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    font-family: BebasNeue;
+    line-height: 50px;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 15px;
+}
+#footer > .wrap > div{
+    float: left;
+    width: 320px;
+    height: 370px;
+    margin: 40px;
+    text-align: center;
+    font-family: "TrebuchetMS";
+}
+
+.boton_menu_footer >a{
+    text-decoration: none;
+    color: #37bcf9;
+    transition: all 300ms;
+    display: block;
+    height: 40px;
+    
+}
+
+#menu_footer{
+    text-align: left !important;
+    font-size: 25px;
+    margin: 20px;
+}
+.boton_menu_footer{
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.boton_menu_footer:first-child{
+    border-bottom: none;
+}
+
+#footer iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#footer img{
+    margin-bottom: 15px;
+}
+#opti-footer img{
+    width: 18%;
+}
