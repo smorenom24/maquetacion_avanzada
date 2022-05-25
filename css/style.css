@@ -367,3 +367,19 @@ body{
     margin-bottom: 10px;
     font-size: 15px;
 }
+#boton_blog{
+    height: 100px;
+    margin-top: 60px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+}
+#boton_blog >a{
+    font-size: 40px;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    font-family: BebasNeue;
+    text-decoration: none;
+    color:#0C558c;
+    letter-spacing: 3px;
+}
