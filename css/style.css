@@ -47,7 +47,10 @@ body{
     font-family: "WebSymbolsRegular";
 }
 
-
+.clear_fix{
+    float: none;
+    clear: both;
+}
 #logo{
     float: left;
     width: 200px;
@@ -163,7 +166,7 @@ body{
     font-family: "TrebuchetMS";
     margin-right: 35px;
 }
-.titulo_barra_lateral{
+.titulo_gris{
     width: auto;
     height: 45px;
     box-shadow: 0px 1px 0px #393d3f,1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f ;
@@ -297,4 +300,70 @@ body{
 .red-social-icon >a{
     text-decoration: none;
     color: black;
+}
+#articulos{
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 750px;
+    float: left;
+    padding-left: 1.5%;
+
+}
+#titulo_principal_articulos{
+    height: 75px;
+    text-align: center;
+    box-shadow: 0px 1px 0px #393d3f,1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f ;
+    background-image: url(../img/pxgray.png);
+    font-family: BebasNeue;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    margin-bottom: 5%;     
+}
+
+.articulo{
+    margin: 40px auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-family: "TrebuchetMS";
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 2px #ddd;
+}
+.titulo_articulo >a{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+    text-decoration: none;
+    color:#0C558c;
+    
+}
+
+.titulo_articulo >a:hover{
+    text-decoration: underline;
+}
+
+.data_articulo{
+    float: right;
+    background-color: #393d3f;
+    color:white;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    margin: -10px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+}
+.fecha_articulo{
+    display: inline;
+}
+.categoria_articulo{
+    margin-left: 8px;
+    display: inline;
+}
+.articulo > .descripcion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
