@@ -211,3 +211,79 @@ body{
 #search >form> input[type="text"]:focus{
     color:#393d3f;
 }
+
+.box_aside{
+    width: 85%;
+    height: 240px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-top: 2px;
+    background-color: white;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3), 0px 3px 7px rgba(0,0,0,0.3), 0px 1px white inset, 0px -3px 2px rgba(0,0,0,0.3) inset ;
+}
+
+#login > form> input[type = "email"], #login > form> input[type = "password"]{
+    width: 85%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    color: #ccc;
+    border-radius: 5px;
+    line-height: 30px;
+    box-shadow: 1px 1px 1px #ccc inset;
+    padding-left: 10%;
+}
+#login > form> input[type = "email"]:focus, #login > form> input[type = "password"]:focus{
+    color: #555;
+    text-shadow: 1px 1px 1px grey inset;
+}
+#user, #password{
+    position: absolute;
+    
+}
+#user{
+    margin-top: 0.4%;
+    margin-left: 0.6%;
+}
+#password{
+    margin-top: 1.9%;
+    margin-left: 0.8%;
+}
+#login > form > input[type="submit"], #login > form > input[type="reset"]{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    color:white;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    border: 1px solid #156785;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'TrebuchetMS';
+    margin-left: 15px;
+    transition: all 200ms;
+    margin-bottom: 15px;
+}
+
+#login > form > input[type="submit"]:hover, #login > form > input[type="reset"]:hover{
+    box-shadow: 0px 0px 3px gray; /*Efecto para seleccionar botón*/
+
+}
+
+#login > a{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 18px;
+    color: black;
+    margin-top: 2px;
+}
+
+
+#login >a:hover{
+    text-decoration: underline;
+    color: #2f78bc;
+}
